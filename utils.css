@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=PT+Sans+Narrow:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=PT+Sans+Narrow:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Caveat:wght@400..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=PT+Sans+Narrow:wght@400;700&display=swap');
+
+:root {
+    --main-bg-color: rgb(180, 70, 6);
+    --font1: 'Bungee Spice', sans-serif;
+    --font2: 'PT Sans Narrow', sans-serif;
+    --font3: 'Caveat', cursive;
+}
+
+.center {
+    text-align: center;
+}
+
+.font1 {
+    font-family: var(--font1);
+    font-size: 15px;
+}
+
+.font2 {
+    font-family: var(--font2);
+}
+
+.font3 {
+    font-family: var(--font3);
+    font-size: 20px;
+}
+
+.max-width-1 {
+    max-width: 80vw;
+
+}
+
+.max-line1-width {
+    max-width: 54vw;
+    margin-left: 490px;
+
+}
+
+.max-line2-width {
+    max-width: 84.5vw;
+    margin-left: 100px;
+}
+
+
+.max-width-2 {
+    max-width: 60vw;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.my-2 {
+    margin-top: 22px;
+    margin-bottom: 22px;
+}
+
+.my-contact {
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+
+.btn {
+    padding: 2px 17px;
+    padding-top: 4px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family: var(--font2);
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    color: white;
+    background: var(--main-bg-color);
+}
+
+.form-input {
+    padding: 0px 30px;
+    padding-top: 5px;
+    font-size: 20px;
+    border: 3px solid black;
+    border-radius: 20px;
+    margin: 0 10px;
+    font-family: var(--font3);
+}
+
+.form-box input,
+textarea {
+    width: 52vw;
+    padding: 7px 6px;
+    margin: 7px 30px;
+    border: 2px solid black;
+    border-radius: 7px;
+    font-family: var(--font2);
+    font-size: 18px;
+}
+
+.about-us-content {
+    font-family: var(--font2);
+    font-size: 23px;
+    text-align: center;
+    padding: 50px;
+}
+
+.about-us-heading-main {
+    font-family: var(--font1);
+    font-size: 30px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.about-us-heading-sub {
+    font-family: var(--font3);
+    font-size: 27px;
+    margin-left: 800px;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utils.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/blogpost.css">
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init({
+                publicKey: ("rnYAHTNlxiNJs1yTk"),
+            });
+        })();
+    </script>
+    <script src="contact.js"></script>
+
+    <title>Trekker Tales</title>
+</head>
+
+<body>
+    <nav class="navigation max-width-1 m-auto">
+        <div class="nav-left">
+            <a href="index.html">
+                <span>
+                    <img src=" img/logo3 (1).png" height="140px" width="350px" alt="">
+                </span>
+            </a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="max-width-1 m-auto">
+        <hr>
+    </div>
+    <div class="contact-content font2 max-width-1 m-auto">
+        <div class="max-width-1 m-auto ">
+
+            <h2>We're with you... Contact us for any help!</h2>
+
+            <div class="contact-form">
+                <div class="form-box">
+                    <input type="text" id="name" placeholder="Enter your Name">
+                </div>
+                <div class="form-box">
+                    <input type="text" id="email" placeholder="Enter your registered mail ID">
+                </div>
+                <div class="form-box">
+                    <input type="text" id="contact" placeholder="Enter your contact No">
+                </div>
+                <div class="form-box">
+                    <input type="text" id="subject" placeholder="Enter the Subject">
+                </div>
+                <div class="form-box">
+                    <textarea name="" id="message" cols="30" rows="10" placeholder="Describe your query"></textarea>
+                </div>
+                <div class="form-box my-contact">
+                    <button class="btn" onclick="sendMail()">Submit</button>
+                </div>
+
+                <h3 class="my-2">Now relax! We will get back to you within 2 business days.</h3>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer my-2">
+        <p>Copyright &copy; TrekkerTales.com</p>
+        <a href="https://www.vecteezy.com/free-vector/travel-blog">Vector
+            Credits: Vecteezy</a>
+    </div>
+</body>
+
+</html>

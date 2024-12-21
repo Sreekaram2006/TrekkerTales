@@ -1,0 +1,151 @@
+* {
+    margin: 0px;
+    padding: 0;
+
+}
+
+.navigation {
+    margin-top: 24px;
+    font-family: var(--font1);
+    height: 174px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+}
+
+.nav-left {
+    font-size: 36px;
+    display: flex;
+    margin-top: 25px;
+}
+
+.nav-left ul {
+    display: flex;
+    align-items: center;
+    margin: 0 41px;
+    font-size: 24px;
+}
+
+.nav-left ul li {
+    list-style: none;
+    margin: 0 14px;
+    font-family: var(--font2);
+    align-items: center;
+}
+
+.nav-left ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-left ul li a:hover {
+    color: var(--main-bg-color);
+    font-weight: bolder;
+}
+
+.content {
+    height: 300px;
+    display: flex;
+    margin-top: 32px;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+}
+
+.content::after {
+    content: "";
+    background-image: url('../img/bgimage.jpg');
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    opacity: 0.6;
+    border-radius: 20px;
+    z-index: -1;
+}
+
+
+.content-left {
+    font-family: var(--font3);
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.content-right img {
+    height: 285px;
+    border: 6px solid black;
+    border-radius: 250px;
+}
+
+.home-articles {
+    padding-top: 12px;
+    padding-left: 12px;
+    position: relative;
+}
+
+.year-box {
+    position: absolute;
+    width: 234px;
+    height: 255px;
+    top: 20px;
+    right: 1px;
+    font-size: 20px;
+}
+
+.year-box div {
+    margin: 10px 0px;
+}
+
+.home-article {
+    display: flex;
+    margin: 25px;
+}
+
+.home-article img {
+    width: 250px;
+    border: 3px solid black;
+    border-radius: 30px;
+}
+
+.home-article-content {
+    align-self: center;
+    padding: 25px;
+}
+
+.home-article-content a {
+    text-decoration: none;
+    color: black;
+}
+
+/* .home-articles{} */
+
+.footer {
+    height: 40px;
+    background-color: var(--main-bg-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+}
+
+.footer a {
+    color: white;
+}
+
+.upload-blog {
+    text-align: center;
+    font-size: 20px;
+    font-family: var(--font2);
+    padding: 1px;
+}
